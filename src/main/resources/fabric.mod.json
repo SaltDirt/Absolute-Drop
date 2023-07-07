@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "qweqwdd",
+  "version": "${version}",
+  "name": "Absolute Drop——爆率是真的高",
+  "description": "此模组将MC里并非绝对掉落的物品改为了绝对掉落（仅限生物），而且对其中部分添加了物品掉落数量。",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Administrator/qweqwdd"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/qweqwdd/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.qwq.salzdkiew.qweqwdd.client.QweqwddClient"
+    ],
+    "main": [
+      "org.qwq.salzdkiew.qweqwdd.Qweqwdd"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
